@@ -7,7 +7,7 @@ import './About.css';
 	const About = () => {
 	return(
 	<div className='About'>
-   About
+   		About
 	</div>
 	
 	);
