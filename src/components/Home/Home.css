@@ -1,13 +1,14 @@
 .page{
-    background-image: url('../media/leech-party.png');
+    background-image: url('../media/circles.png');
     background-repeat:repeat;
-    height: 100vh;
+    height: 200vh;
+    
 }
 .Home{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 95vh;
+    height: 100vh;
 }
 
 .logo{

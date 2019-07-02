@@ -1,6 +1,6 @@
 import React from 'react';	
 import {Link} from 'react-router-dom';
-
+import mountains from '../media/mountain.png';
 
 import './Navbar.css';
 	
@@ -8,7 +8,11 @@ import './Navbar.css';
 	return(
 <div className='Page'>
 <div className='Navbar'>
-        <Link className="nav" to="/">
+<div className='nav-content'>
+<Link className='nav' to='/'>
+<img className='back-to-home' src={mountains} alt="mountains"></img>    
+</Link>
+<Link className="nav" to="/">
         <div className="text">
         HOME
         </div>
@@ -33,6 +37,7 @@ import './Navbar.css';
         CONTACT
         </div>
         </Link>
+</div>
 	</div>
         </div>
 	);

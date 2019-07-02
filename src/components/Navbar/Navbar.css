@@ -1,11 +1,18 @@
 .Navbar{
-    display: flex;
-    float: right;
-    background-color: rgba(255, 222, 238, 0.733);
-
+    background-color: rgba(253, 159, 204, 0.733);
+    top: 0;
+    margin: 0;
+    right: 0em;
+    bottom: 41em;
+    left: 0em;
+    position: fixed;
 }
 
-
+.nav-content{
+    display: flex;
+    padding-left: 55em;
+    position: fixed;
+}
 .text{
     padding: 1em;
     padding-right: .5em;
@@ -13,7 +20,13 @@
 
 }
 
-
+.back-to-home{
+    height: 7vh;
+    position: fixed;
+    left: 0em;
+    padding-left: 1em;
+    padding-top: .2em;
+}
 .nav{
     text-decoration: none;
     color: white;
@@ -25,13 +38,13 @@
 }
 
 .nav:hover{
-    color:rgb(250, 31, 122);
+    color:rgb(216, 0, 151);
 }
 
 .nav:active{
-    color:rgb(250, 31, 122);
+    color:rgb(216, 0, 151);
 }
 
 .active{
-    color:rgb(250, 31, 122);
+    color:rgb(216, 0, 151);
 }
