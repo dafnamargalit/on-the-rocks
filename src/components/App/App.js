@@ -4,6 +4,7 @@ import ScrollableAnchor from 'react-scrollable-anchor';
 import Navbar from '../Navbar';
 import Home from '../Home';
 import About from '../About';
+import Music from '../Music';
 import Contact from '../Contact';
 import Gigs from '../Gigs';
 import MTM from '../MTM';
@@ -35,6 +36,11 @@ class App extends Component {
         <ScrollableAnchor id={"gigs"}>
           <div className="Gigs">
             <Gigs/>
+          </div>
+        </ScrollableAnchor>
+        <ScrollableAnchor id={"music"}>
+          <div className="Music">
+            <Music/>
           </div>
         </ScrollableAnchor>
         <ScrollableAnchor id={"contact"}>

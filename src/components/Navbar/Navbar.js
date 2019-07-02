@@ -31,6 +31,11 @@ import './Navbar.css';
                                                 GIGS
                                         </div>
                                 </a>
+                                <a className="nav" href="#music">
+                                        <div className="text">
+                                                OUR MUSIC
+                                        </div>
+                                </a>
                                 <a className="nav" href="#contact">
                                         <div className="text">
                                                 CONTACT
