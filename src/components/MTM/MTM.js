@@ -61,7 +61,7 @@ import './MTM.css';
 	return(
 	<div className='MTM'>
 		<div className='MTM-Header'>
-			Meet the Members
+			MEET THE MEMBERS
 		</div>
 		<div className='MTM-Members'>
 			<img className='MTM-Person' src={kyra} alt="kyra" onClick={() => kyra_modal()}></img>

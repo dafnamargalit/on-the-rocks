@@ -14,7 +14,7 @@ import './About.css';
 	<img className='About-Image' src={group} alt="us"/>
    		<div className='About-Description'>
 		   <header className='About-Header'>
-			   About
+			   ABOUT
 		   </header>
 		   <br></br>
 		   Welcome to the official website of On the Rocks, CU Boulder’s one and only all women’s acapella group! 
