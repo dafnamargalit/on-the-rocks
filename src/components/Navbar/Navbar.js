@@ -28,7 +28,7 @@ import './Navbar.css';
                                 </a>
                                 <a className="nav" href="#gigs">
                                         <div className="text">
-                                                GIGS
+                                                UPCOMING PERFORMANCES/GIGS
                                         </div>
                                 </a>
                                 <a className="nav" href="#music">

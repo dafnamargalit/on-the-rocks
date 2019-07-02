@@ -6,7 +6,9 @@ import './Gigs.css';
 	const Gigs = () => {
 	return(
 	<div className='Gigs'>
-	Gigs
+		<div className='Gigs-Header'>
+			UPCOMING PERFORMANCES/GIGS
+		</div>
 
 	</div>
 	

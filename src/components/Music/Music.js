@@ -5,7 +5,9 @@ import './Music.css';
 	const Music = () => {
 	return(
 	<div className='Music'>
-	Music
+		<div className='Music-Header'>
+			OUR MUSIC
+		</div>
 
 	</div>
 	

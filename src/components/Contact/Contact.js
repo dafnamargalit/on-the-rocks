@@ -7,7 +7,9 @@ import './Contact.css';
 	const Contact = () => {
 	return(
 	<div className='Contact'>
-    Contact
+		<div className='Contact-Header'>
+			CONTACT US
+		</div>
 	</div>
 	
 	);
