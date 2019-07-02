@@ -2,6 +2,7 @@
 display: flex;
 align-items: center;
 justify-content: center;
+height: 100vh;
 /* background-image: url('../media/circles.png');
 background-repeat:repeat; */
 }
@@ -34,6 +35,3 @@ border-radius: 2em;
     font-family: cursive;
 }
 
-.lower{
-    font-size: 1.8em;
-}
