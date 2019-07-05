@@ -158,23 +158,93 @@ import './MTM.css';
 						MEET THE MEMBERS
 					</div>
 					<div className='MTM-Members'>
-						<img className='MTM-Person' src={kyra} alt="kyra" onClick={() => this.kyra_modal()}></img>
-						<img className='MTM-Person' src={dafna} alt="dafna" onClick={() => this.dafna_modal()}></img>
-						<img className='MTM-Person' src={michelle} alt="michelle" onClick={() => this.michelle_modal()}></img>
+						<div className='MTM-Person-Container'>
+							<img className='MTM-Person' src={kyra} alt="kyra" onClick={() => this.kyra_modal()}></img>
+							<div className="MTM-Container">
+								Kyra Mowbray
+							</div>
+						</div>
+						<div className='MTM-Person-Container'>
+							<img className='MTM-Person' src={dafna} alt="dafna" onClick={() => this.dafna_modal()}></img>
+							<div className="MTM-Container">
+									Dafna Margalit
+							</div>
+						</div>
+						<div className='MTM-Person-Container'>
+							<img className='MTM-Person' src={michelle} alt="michelle" onClick={() => this.michelle_modal()}></img>
+							<div className="MTM-Container">
+									Michelle Piccone
+							</div>
+						</div>
 					</div>
 					<div className='MTM-Members'>
-						<img className='MTM-Person' src={katie} alt="katie" onClick={() => this.katie_modal()}></img>
-						<img className='MTM-Person' src={jenna} alt="jenna" onClick={() => this.jenna_modal()}></img>
-						<img className='MTM-Person' src={riley} alt="riley" onClick={() => this.riley_modal()}></img>
-						<img className='MTM-Person' src={aleix} alt="aleix" onClick={() => this.aleix_modal()}></img>
-						<img className='MTM-Person' src={emily} alt="emily" onClick={() => this.emily_modal()}></img>
+						<div className='MTM-Person-Container'>
+							<img className='MTM-Person' src={katie} alt="katie" onClick={() => this.katie_modal()}></img>
+							<div className="MTM-Container">
+									Katie Lavey
+							</div>
+						</div>
+						<div className='MTM-Person-Container'>
+							<img className='MTM-Person' src={jenna} alt="jenna" onClick={() => this.jenna_modal()}></img>
+							<div className="MTM-Container">
+									Jenna Snyder
+							</div>
+						</div>
+						<div className='MTM-Person-Container'>
+							<img className='MTM-Person' src={riley} alt="riley" onClick={() => this.riley_modal()}></img>
+							<div className="MTM-Container">
+									Riley Blackwood
+							</div>
+						</div>
+						<div className='MTM-Person-Container'>
+							<img className='MTM-Person' src={aleix} alt="aleix" onClick={() => this.aleix_modal()}></img>
+							<div className="MTM-Container">
+									Aleix Lyon
+							</div>
+						</div>
+						<div className='MTM-Person-Container'>
+							<img className='MTM-Person' src={emily} alt="emily" onClick={() => this.emily_modal()}></img>
+							<div className="MTM-Container">
+									Emily Miller
+							</div>
+						</div>
 					</div>
+
 					<div className='MTM-Members'>
+						<div className='MTM-Person-Container'>
 						<img className='MTM-Person' src={kf} alt="kf" onClick={() => this.kf_modal()}></img>
+							<div className="MTM-Container">
+									Katie Faith Leonard
+							</div>
+						</div>
+
+						<div className='MTM-Person-Container'>
 						<img className='MTM-Person' src={maya} alt="maya" onClick={() => this.maya_modal()}></img>
+							<div className="MTM-Container">
+									Maya Shrestha
+							</div>
+						</div>
+
+						<div className='MTM-Person-Container'>
 						<img className='MTM-Person' src={noopur} alt="noopur" onClick={() => this.noopur_modal()}></img>
+							<div className="MTM-Container">
+									Noopur Naik
+							</div>
+						</div>
+
+						<div className='MTM-Person-Container'>
 						<img className='MTM-Person' src={gretchen} alt="gretchen" onClick={() => this.gretchen_modal()}></img>
+							<div className="MTM-Container">
+									Gretchen Shoemaker
+							</div>
+						</div>
+
+						<div className='MTM-Person-Container'>
 						<img className='MTM-Person' src={bitch} alt="caroline" onClick={() => this.bitch_modal()}></img>
+							<div className="MTM-Container">
+									Caroline Thomson
+							</div>
+						</div>
 					</div>
 					
 					<Modal

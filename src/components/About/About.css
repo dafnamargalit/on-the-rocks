@@ -1,14 +1,15 @@
 .About{
 display: flex;
-align-items: center;
+/* align-items: center; */
 justify-content: center;
+padding-top: 4vh;
 height: 100vh;
 /* background-image: url('../media/circles.png');
 background-repeat:repeat; */
 }
 
 .About-Content{
-height: 40vh;
+height: 75vh;
 background-color: rgba(255, 192, 231, 0.699);
 display: flex;
 padding: 1em;
@@ -20,11 +21,12 @@ border-radius: 2em;
     padding: 1em;
     color: rgb(216, 0, 151);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
     font-size: 1.2em;
 }
 
 .About-Image{
-    height: 40vh;
+    height: 50vh;
     border-radius: 2em;
     border-style: solid;
     border-color: rgb(216, 0, 151);
@@ -33,5 +35,6 @@ border-radius: 2em;
 .About-Header{
     font-size: 2em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
 }
 

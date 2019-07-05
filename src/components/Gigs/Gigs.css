@@ -5,8 +5,23 @@ align-items: center;
 justify-content: center;
 }
 
+.Gig-Content{
+    display: block;
+    text-align: center;
+}
+
 .Gigs-Header{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2em;
     color: rgb(216, 0, 151);
+}
+
+.Gig{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+    color: rgb(216, 0, 151);
+}
+
+.Gig:hover{
+    color:rgb(170, 0, 119);
 }
