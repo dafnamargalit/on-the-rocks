@@ -14,7 +14,7 @@ import kf from '../media/kf.png';
 import maya from '../media/maya.png';
 import noopur from '../media/noopur.png';
 import gretchen from '../media/gretchen.png';
-import bitch from '../media/bitch.png';
+import caroline from '../media/caroline.png';
 
 
 import './MTM.css';
@@ -124,16 +124,14 @@ import './MTM.css';
 		  }
 
 		  maya_modal(){
-			this.setState({name: "Maya Shrestha"});
+			this.setState({name: "Maya Shrestha",image: maya});
 			this.setState({description: "We are beyond lucky to have Maya in OTR! Best known as our beatbox QUEEN, you can catch her dropping some sick beats. Maya is not only a ball of spunk, but she is a great mentor when it comes to helping others with keeping beat. And as some may know, Maya may weave some fantastic Star Wars references throughout rehearsal ;-). Without her we would not be where we are now!" });
-			this.setState({image: maya});
 			this.openModal();
 		  }
 
 		  noopur_modal(){
-			this.setState({name: "Noopur Naik"});
+			this.setState({name: "Noopur Naik",image: noopur});
 			this.setState({description: "Just WAIT until you hear the smooth, luxurious voice that emanates from Noopur’s mouth. Noopur’s voice will surely make you melt at each and every one of our concerts. Noopur can whip out a hilarious story on any occasion and make us all collapse from laughter. She juggles all the responsibilities in life like its a walk in the park, and she never fails to bring a warm smile to rehearsal."});
-			this.setState({image: noopur});
 			this.openModal();
 		  }
 
@@ -144,10 +142,9 @@ import './MTM.css';
 			this.openModal();
 		  }
 
-		  bitch_modal(){
-			this.setState({name: "Caroline Thomson"});
+		  caroline_modal(){
+			this.setState({name: "Caroline Thomson",image: caroline});
 			this.setState({description: "Caroline just recently joined OTR this fall as an awesome alto! She’s got a beautiful voice and an attitude to match. Seriously, this girl comes in each day with a smile on her face, and gets right down to business memorizing complicated acapella songs in minutes! We’re so glad she’s part of the team and excited to keep singing with her!"});
-			this.setState({image: bitch});
 			this.openModal();
 		  }
 
@@ -240,7 +237,7 @@ import './MTM.css';
 						</div>
 
 						<div className='MTM-Person-Container'>
-						<img className='MTM-Person' src={bitch} alt="caroline" onClick={() => this.bitch_modal()}></img>
+						<img className='MTM-Person' src={caroline} alt="caroline" onClick={() => this.caroline_modal()}></img>
 							<div className="MTM-Container">
 									Caroline Thomson
 							</div>

@@ -3,8 +3,28 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
+    flex-flow: row wrap;
 }
 
+.Home-Container {
+    position: relative;
+    width: 25em;
+}
+
+.ring{
+    position: relative;
+    z-index: 2;
+}
+.Home-Outer{
+    height: 70vh;
+    position: relative;
+    z-index: 2;
+}
+
+.Home-Inner{
+    position: absolute;
+    height: 70vh;
+}
 .Home-Logo{
     border-radius: 60em;
     height: 70vh;

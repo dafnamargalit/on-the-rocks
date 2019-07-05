@@ -3,7 +3,7 @@
     top: 0;
     margin: 0;
     right: 0em;
-    bottom: 44em;
+    bottom: 42.5em;
     left: 0em;
     position: fixed;
 }
@@ -21,11 +21,11 @@
 }
 
 .back-to-home{
-    height: 7vh;
+    height: 12vh;
     position: fixed;
     left: 0em;
     padding-left: 1em;
-    padding-top: .2em;
+    padding-top: 0em;
 }
 .nav{
     text-decoration: none;
