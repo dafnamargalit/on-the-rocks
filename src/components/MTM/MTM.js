@@ -185,7 +185,7 @@ const customStyles = {
 						contentLabel="Example Modal"
 						ref={this.exampleRef}
 						>
-						<img className='MTM-Person' src={this.state.image} alt='person'></img>
+						<img className='MTM-Person-desc' src={this.state.image} alt='person'></img>
 						{this.state.description}
 						</Modal>
 				</div>
