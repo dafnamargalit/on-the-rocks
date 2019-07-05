@@ -32,6 +32,60 @@
     transform: scale(1.05);
 }
 
-.MTM-Kyra{
-    display: none;
+.MTM-Person-desc{
+    padding: .2em;
+    margin: 1em;
+    height: 20vh;
 }
+
+.MTM-Modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) !important;
+    width: 45vh;
+    background-color: rgb(255, 213, 239);
+    outline: none;
+    border-radius: 1em;
+  }
+
+  .MTM-Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(62, 60, 65, 0.479);
+  }
+
+  .MTM-Modal-Content{
+      display: block;
+  }
+
+  .MTM-Container{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .MTM-Description{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      margin: 1em;
+      text-align: center;
+  }
+
+  .MTM-Button{
+      padding: 1em;
+      margin: 1em;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      border-style: none;
+      border-radius: .5em;
+      background-color: rgb(255, 192, 231);
+      outline: none;
+  }
+
+  .MTM-Button:hover{
+    background-color: rgb(255, 172, 223);
+
+  }

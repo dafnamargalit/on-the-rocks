@@ -18,16 +18,16 @@ import bitch from '../media/bitch.png';
 
 
 import './MTM.css';
-const customStyles = {
-	content : {
-	  top                   : '50%',
-	  left                  : '50%',
-	  right                 : 'auto',
-	  bottom                : 'auto',
-	  marginRight           : '-50%',
-	  transform             : 'translate(-50%, -50%)'
-	}
-  };
+// const customStyles = {
+// 	content : {
+// 	  top                   : '50%',
+// 	  left                  : '50%',
+// 	  right                 : 'auto',
+// 	  bottom                : 'auto',
+// 	  marginRight           : '-50%',
+// 	  transform             : 'translate(-50%, -50%)'
+// 	}
+//   };
 
 
 
@@ -176,17 +176,31 @@ const customStyles = {
 						<img className='MTM-Person' src={gretchen} alt="gretchen" onClick={() => this.gretchen_modal()}></img>
 						<img className='MTM-Person' src={bitch} alt="caroline" onClick={() => this.bitch_modal()}></img>
 					</div>
-			
+					
 					<Modal
 						isOpen={this.state.modalIsOpen}
 						onAfterOpen={this.afterOpenModal}
 						onRequestClose={this.closeModal}
-						style={customStyles}
-						contentLabel="Example Modal"
+						className="MTM-Modal"
+						overlayClassName="MTM-Overlay"
+						contentLabel="Modal"
+						disableAutoFocus={true}
 						ref={this.exampleRef}
 						>
-						<img className='MTM-Person-desc' src={this.state.image} alt='person'></img>
-						{this.state.description}
+						<div className="MTM-Modal-Content">
+							<div className="MTM-Container">
+								<img className='MTM-Person-desc' src={this.state.image} alt='person'></img>
+							</div>
+							<div className="MTM-Container">
+								{this.state.name}
+							</div>
+							<div className="MTM-Description">
+								{this.state.description}
+							</div>
+							<div className="MTM-Container">
+							<button className="MTM-Button" onClick={this.closeModal}> Close </button>
+							</div>
+						</div>
 						</Modal>
 				</div>
 				
