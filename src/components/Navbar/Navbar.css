@@ -6,6 +6,7 @@
     bottom: 42.5em;
     left: 0em;
     position: fixed;
+    z-index: 3;
 }
 
 .nav-content{
@@ -21,7 +22,7 @@
 }
 
 .back-to-home{
-    height: 12vh;
+    height: 8vh;
     position: fixed;
     left: 0em;
     padding-left: 1em;

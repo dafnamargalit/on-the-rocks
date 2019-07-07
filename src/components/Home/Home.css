@@ -15,10 +15,18 @@
     position: relative;
     z-index: 2;
 }
+
+.circle{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 70vh;
+}
+
+
 .Home-Outer{
     height: 70vh;
     position: relative;
-    z-index: 2;
 }
 
 .Home-Inner{
