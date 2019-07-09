@@ -33,7 +33,7 @@ import './Navbar.css';
                                 </a>
                                 <a className="nav" href="#music">
                                         <div className="text">
-                                                OUR MUSIC
+                                                AUDITION INFO
                                         </div>
                                 </a>
                                 <a className="nav" href="#contact">

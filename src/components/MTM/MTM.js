@@ -118,7 +118,7 @@ import './MTM.css';
 
 		  kf_modal(){
 			this.setState({name: "Katie Faith Leonard"});
-			this.setState({description: "katie faith " });
+			this.setState({description: "Meet Katie Faith, the kindest, funniest, and most hardworking QUEEN with the sweetest voice. You having a bad day? As soon as Katie Faith is by your side, your whole mood will change for the better. We are so lucky to have such a talented and wonderful person in our group!" });
 			this.setState({image: kf});
 			this.openModal();
 		  }
@@ -137,14 +137,14 @@ import './MTM.css';
 
 		  gretchen_modal(){
 			this.setState({name: "Gretchen Shoemaker"});
-			this.setState({description: "gretchen"});
+			this.setState({description: "If you're thinking of a super talented, gorgeous, funny, and overall amazing person, you're thinking of THE Gretchen Shoemaker. Her wide vocal range and beautiful tone are only some of the many great things about her singing, and OTR is SO lucky to have such a talented performer who also just happens to be the best person you'll ever meet."});
 			this.setState({image: gretchen});
 			this.openModal();
 		  }
 
 		  caroline_modal(){
 			this.setState({name: "Caroline Thomson",image: caroline});
-			this.setState({description: "Caroline just recently joined OTR this fall as an awesome alto! She’s got a beautiful voice and an attitude to match. Seriously, this girl comes in each day with a smile on her face, and gets right down to business memorizing complicated acapella songs in minutes! We’re so glad she’s part of the team and excited to keep singing with her!"});
+			this.setState({description: "Caroline has got a beautiful voice and an attitude to match. Seriously, this girl comes in each day with a smile on her face, and gets right down to business memorizing complicated acapella songs in minutes! We’re so glad she’s part of the team and excited to keep singing with her!"});
 			this.openModal();
 		  }
 
