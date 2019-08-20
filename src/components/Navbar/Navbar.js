@@ -25,12 +25,17 @@ import './Navbar.css';
                                                 MEET THE MEMBERS
                                         </div>
                                 </a>
+                                <a className="nav" href="#music">
+                                        <div className="text">
+                                               OUR MUSIC
+                                        </div>
+                                </a>
                                 <a className="nav" href="#gigs">
                                         <div className="text">
                                                 UPCOMING PERFORMANCES/GIGS
                                         </div>
                                 </a>
-                                <a className="nav" href="#music">
+                                <a className="nav" href="#audition">
                                         <div className="text">
                                                 AUDITION INFO
                                         </div>

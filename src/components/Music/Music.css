@@ -4,10 +4,34 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .Music-Header{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2em;
     color: rgb(216, 0, 151);
+    width: 50vh;
+    text-align: center;
+
+}
+
+.Music-Content{
+    display: flex;
+    width: 50vh;
+    margin: 2em;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: rgba(255, 192, 231, 0.699);
+    border-radius: 1em;
+}
+.Music-Icon{
+    height: 10vh;
+    margin: 1em;
+}
+
+
+.Music-Icon:hover{
+    filter: brightness(75%);
 }

@@ -29,7 +29,7 @@ import './About.css';
 		   or come watch us during one of our <a href="#gigs">upcoming concerts</a>.
 		   As we are made up of 100% CU students, we see a lot of members come and go through the years, and our sound develops and changes with each new member. 
 		   When we lose any of our beloved members to their graduation date, we hold auditions to gather new girls. 
-		   For more information on how to join us, see <a href="#music">Audition Information</a>. We are always looking out for new voices!
+		   For more information on how to join us, see <a href="#audition">Audition Information</a>. We are always looking out for new voices!
 		   <br></br>
 		   <br></br>
 		   So while you’re here, indulge your ears, because everything’s better On the Rocks!

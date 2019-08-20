@@ -8,6 +8,7 @@ import Music from '../Music';
 import Contact from '../Contact';
 import Gigs from '../Gigs';
 import MTM from '../MTM';
+import Audition from '../Audition';
 
 import './App.css';
 
@@ -33,14 +34,19 @@ class App extends Component {
             <MTM/>
           </div>
         </ScrollableAnchor>
+        <ScrollableAnchor id={"music"}>
+          <div className="Music">
+            <Music/>
+          </div>
+        </ScrollableAnchor>
         <ScrollableAnchor id={"gigs"}>
           <div className="Gigs">
             <Gigs/>
           </div>
         </ScrollableAnchor>
-        <ScrollableAnchor id={"music"}>
-          <div className="Music">
-            <Music/>
+        <ScrollableAnchor id={"audition"}>
+          <div className="Audition">
+            <Audition/>
           </div>
         </ScrollableAnchor>
         <ScrollableAnchor id={"contact"}>

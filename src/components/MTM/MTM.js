@@ -13,7 +13,6 @@ import emily from '../media/emily.png';
 import kf from '../media/kf.png';
 import maya from '../media/maya.png';
 import noopur from '../media/noopur.png';
-import gretchen from '../media/gretchen.png';
 import caroline from '../media/caroline.png';
 
 
