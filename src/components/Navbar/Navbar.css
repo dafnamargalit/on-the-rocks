@@ -5,12 +5,24 @@
     z-index:999999;
     left: 0em;
     height: 8vh;
+    display: flex;
+    flex-direction: row;
 }
 
-.nav-content{
+.icon{
+    right: 0em;
+    display: none;
+}
+
+.side{
+    display: none;
+}
+.Navbar-Links{
     display: flex;
+    flex-direction: row;
     position: fixed;
     left: 8em;
+    width: 200vw;
 }
 .text{
     padding: 1em;
@@ -19,6 +31,7 @@
 
 }
 
+
 .back-to-home{
     height: 8vh;
     position: fixed;
@@ -26,6 +39,7 @@
     padding-left: 1em;
     padding-top: 0em;
 }
+
 .nav{
     text-decoration: none;
     color: white;
@@ -46,4 +60,27 @@
 
 .active{
     color:rgb(216, 0, 151);
+}
+
+@media only screen and (max-width: 600px){	
+    .Navbar {
+       background-color:rgba(240, 61, 147, 0.733);
+       width: 100vw;
+       height: 10vh;
+       top: auto;
+      }
+      
+      .Navbar-Links {
+        display: none;
+      }
+      .icon{
+        display: block;
+        right: 0em;
+        width: 7vh;
+    }
+    
+    .side{
+        width: 80vw;
+        display: block;
+    }
 }

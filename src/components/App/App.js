@@ -17,6 +17,7 @@ class App extends Component {
   render(){
   return (
     <ParallaxProvider>
+    <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
       <div className="App">
         <Navbar/>
         <ScrollableAnchor id={"home"}>

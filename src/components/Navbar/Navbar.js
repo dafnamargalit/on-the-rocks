@@ -1,15 +1,19 @@
 import React from 'react';	
 import mountains from '../media/mountain.png';
+import icon from '../media/navbar.svg';
 
 import './Navbar.css';
 	
 	const Navbar = () => {
 	return(
                 <div className='Navbar'>
-                        <div className='nav-content'>
-                                <a className='nav' href='#home'>
-                                        <img className='back-to-home' src={mountains} alt="mountains"></img>    
-                                </a>
+                <div className='side'>     
+                </div>
+                <img className='icon' src={icon} alt="icon"></img>   
+                <a className='nav' href='#home'>
+                        <img className='back-to-home' src={mountains} alt="mountains"></img>    
+                </a>
+                        <div className='Navbar-Links' ref="mobile-links">
                                 <a className='nav' href='#home'>
                                         <div className="text">
                                                 HOME
@@ -47,6 +51,7 @@ import './Navbar.css';
                                 </a>
                         </div>
                 </div>
+              
 	);
 	}
 	

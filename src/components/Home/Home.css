@@ -42,3 +42,11 @@
 .Home-Logo:hover{
     transform: scale(1.05);
 }
+
+@media only screen and (max-width: 600px){			
+    .Home-Logo{
+        border-radius: 60em;
+        height: 50vh;
+        transition: transform .2s;
+    }
+}
