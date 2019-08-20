@@ -5,7 +5,6 @@ import './Navbar.css';
 	
 	const Navbar = () => {
 	return(
-        <div className='Page'>
                 <div className='Navbar'>
                         <div className='nav-content'>
                                 <a className='nav' href='#home'>
@@ -43,7 +42,6 @@ import './Navbar.css';
                                 </a>
                         </div>
                 </div>
-        </div>
 	);
 	}
 	

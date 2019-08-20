@@ -6,7 +6,7 @@ import './Music.css';
 	return(
 	<div className='Music'>
 		<div className='Music-Header'>
-			AUDITION INFO
+			OUR MUSIC
 		</div>
 
 	</div>

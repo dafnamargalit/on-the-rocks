@@ -1,18 +1,16 @@
 .Navbar{
-    background-color: rgba(253, 159, 204, 0.733);
-    top: 0;
-    margin: 0;
-    right: 0em;
-    bottom: 42.5em;
-    left: 0em;
+    background-color: rgba(240, 61, 147, 0.733);
+    width: 200vw;
     position: fixed;
-    z-index: 3;
+    z-index:999999;
+    left: 0em;
+    height: 8vh;
 }
 
 .nav-content{
     display: flex;
-    padding-left: 35em;
     position: fixed;
+    left: 8em;
 }
 .text{
     padding: 1em;

@@ -97,7 +97,7 @@ import './MTM.css';
 
 		  riley_modal(){
 			  this.setState({name: "Riley Blackwood"});
-			  this.setState({description: "This spunky, sweet gal has been singing with On the Rocks since she was just a little freshman. Riley is one smart girlie; she’s studying psychology and history with a certificate in applied care. When Riley isn’t studying she can be found making pumpkins spice lates at Starbucks or riffing Ariana Grande tunes. We love this girl and are so excited to see what the world has in store for her."});
+			  this.setState({description: "This spunky, sweet gal has been singing with On the Rocks since she was just a little freshman. Riley is one smart girlie; she’s studying psychology and history with a certificate in applied care. When Riley isn’t studying she can be found making pumpkins spice lattes at Starbucks or riffing Ariana Grande tunes. We love this girl and are so excited to see what the world has in store for her."});
 			  this.setState({image: riley});
 			  this.openModal();
 		  }
@@ -132,13 +132,6 @@ import './MTM.css';
 		  noopur_modal(){
 			this.setState({name: "Noopur Naik",image: noopur});
 			this.setState({description: "Just WAIT until you hear the smooth, luxurious voice that emanates from Noopur’s mouth. Noopur’s voice will surely make you melt at each and every one of our concerts. Noopur can whip out a hilarious story on any occasion and make us all collapse from laughter. She juggles all the responsibilities in life like its a walk in the park, and she never fails to bring a warm smile to rehearsal."});
-			this.openModal();
-		  }
-
-		  gretchen_modal(){
-			this.setState({name: "Gretchen Shoemaker"});
-			this.setState({description: "If you're thinking of a super talented, gorgeous, funny, and overall amazing person, you're thinking of THE Gretchen Shoemaker. Her wide vocal range and beautiful tone are only some of the many great things about her singing, and OTR is SO lucky to have such a talented performer who also just happens to be the best person you'll ever meet."});
-			this.setState({image: gretchen});
 			this.openModal();
 		  }
 
@@ -229,12 +222,6 @@ import './MTM.css';
 							</div>
 						</div>
 
-						<div className='MTM-Person-Container'>
-						<img className='MTM-Person' src={gretchen} alt="gretchen" onClick={() => this.gretchen_modal()}></img>
-							<div className="MTM-Container">
-									Gretchen Shoemaker
-							</div>
-						</div>
 
 						<div className='MTM-Person-Container'>
 						<img className='MTM-Person' src={caroline} alt="caroline" onClick={() => this.caroline_modal()}></img>
