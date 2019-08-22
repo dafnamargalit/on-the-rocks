@@ -64,7 +64,7 @@
 
 @media only screen and (max-width: 600px){	
     .Navbar {
-       background-color:rgba(240, 61, 147, 0.733);
+       background-color:rgba(240, 61, 147);
        width: 100vw;
        height: 10vh;
        top: auto;
@@ -72,6 +72,12 @@
       
       .Navbar-Links {
         display: none;
+        flex-direction: column;
+        width: 100vw;
+        left: 0em;
+        top: 10vh;
+        background-color: rgb(228, 97, 160);
+        transition: 'filter 0.5s ease'
       }
       .icon{
         display: block;
@@ -83,4 +89,11 @@
         width: 80vw;
         display: block;
     }
+    .text{
+        padding: 1em;
+        padding-right: .5em;
+        text-decoration: none;
+        width: 10vw;
+    }
+    
 }
