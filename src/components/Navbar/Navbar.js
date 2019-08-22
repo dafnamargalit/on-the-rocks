@@ -15,6 +15,10 @@ import './Navbar.css';
                                  menu.style.display = 'flex';
                          }
                 }
+                menuClose(){
+                        var menu = document.querySelector(".Navbar-Links");
+                        menu.style.display = 'none';
+                }
                 render(){
 	return(
                 <div className='Navbar'>
@@ -26,37 +30,37 @@ import './Navbar.css';
                 </a>
                         <div className='Navbar-Links'>
                                 <a className='nav' href='#home'>
-                                        <div className="text" onClick={this.menuOpen}>
+                                        <div className="text" onClick={this.menuClose}>
                                                 HOME
                                         </div>
                                 </a>
                                 <a className='nav' href='#about'>
-                                        <div className="text" onClick={this.menuOpen}>
+                                        <div className="text" onClick={this.menuClose}>
                                                 ABOUT
                                         </div>
                                 </a>
                                 <a className="nav" href="#meet-the-members">
-                                        <div className="text" onClick={this.menuOpen}>
+                                        <div className="text" onClick={this.menuClose}>
                                                 MEET THE MEMBERS
                                         </div>
                                 </a>
                                 <a className="nav" href="#music">
-                                        <div className="text" onClick={this.menuOpen}>
+                                        <div className="text" onClick={this.menuClose}>
                                                OUR MUSIC
                                         </div>
                                 </a>
                                 <a className="nav" href="#gigs">
-                                        <div className="text" onClick={this.menuOpen}>
+                                        <div className="text" onClick={this.menuClose}>
                                                 UPCOMING PERFORMANCES/GIGS
                                         </div>
                                 </a>
                                 <a className="nav" href="#audition">
-                                        <div className="text" onClick={this.menuOpen}>
+                                        <div className="text" onClick={this.menuClose}>
                                                 AUDITION INFO
                                         </div>
                                 </a>
                                 <a className="nav" href="#contact">
-                                        <div className="text" onClick={this.menuOpen}>
+                                        <div className="text" onClick={this.menuClose}>
                                                 CONTACT
                                         </div>
                                 </a>

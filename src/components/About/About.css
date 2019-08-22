@@ -4,6 +4,7 @@ display: flex;
 justify-content: center;
 padding-top: 4vh;
 height: 100vh;
+
 /* background-image: url('../media/circles.png');
 background-repeat:repeat; */
 }
@@ -42,4 +43,52 @@ a{
     color: rgb(216, 0, 151);
     text-decoration: none;
     font-weight: 400;
+} 
+
+#mobile-header{
+    display: none;
+}
+
+#desktop-header{
+    display: flex;
+}
+
+#desktop-break{
+    display:block;
+}
+@media only screen and (max-width: 800px){
+    .About{
+        padding-top: 4vh;
+        height: 270vh;
+        top:100vh;
+        flex-direction: column;
+        /* background-image: url('../media/circles.png');
+        background-repeat:repeat; */
+        }
+        .About-Image{
+            height: 30vh;
+            width:40vh;
+            margin: .2em;
+        }
+        .About-Content{
+           flex-direction: column;
+           align-items: center;
+           height: 270vh;
+            }
+            .About-Header{
+                font-size: 1.5em;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-weight: 500;
+                color: rgb(216, 0, 151);
+            }
+        #mobile-header{
+            display: flex;
+            color: rgb(216, 0, 151);
+        }
+        #desktop-break{
+            display:none;
+        }
+        #desktop-header{
+            display: none;
+        }
 }

@@ -62,12 +62,14 @@
     color:rgb(216, 0, 151);
 }
 
-@media only screen and (max-width: 600px){	
+
+
+@media only screen and (max-width: 800px){	
     .Navbar {
        background-color:rgba(240, 61, 147);
        width: 100vw;
        height: 10vh;
-       top: auto;
+       /* top: auto; */
       }
       
       .Navbar-Links {

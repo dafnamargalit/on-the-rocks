@@ -11,12 +11,15 @@ import './About.css';
 	<div className='About'>
 	{/* <Navbar/> */}
 	<div className='About-Content'>
+	<header id='#mobile-header' className='About-Header'>
+			   ABOUT
+	</header>
 	<img className='About-Image' src={group} alt="us"/>
    		<div className='About-Description'>
-		   <header className='About-Header'>
+		   <header id="desktop-header" className='About-Header'>
 			   ABOUT
 		   </header>
-		   <br></br>
+		   <br id="desktop-break"></br> 
 		   Welcome to the official website of On the Rocks, CU Boulder’s one and only all women’s acapella group! 
 		   Have you heard a siren’s song up on the Flatirons? Or a beautiful tune floating down Pearl Street?
 		   <br></br>
