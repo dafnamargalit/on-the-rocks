@@ -11,7 +11,7 @@ import './About.css';
 	<div className='About'>
 	{/* <Navbar/> */}
 	<div className='About-Content'>
-	<header id='#mobile-header' className='About-Header'>
+	<header className='About-MobileHeader'>
 			   ABOUT
 	</header>
 	<img className='About-Image' src={group} alt="us"/>
@@ -28,8 +28,6 @@ import './About.css';
 		   <br></br>
 		   <br></br>
 		   On the Rocks has been singing proudly at CU since 2005, and we are a tight-knit group that laughs and loves as hard as we practice. 
-		   We specialize in songs that are sung “acapella“, meaning “without instrumental accompaniment”. For a sample of our sound, take a look at our current set list, 
-		   or come watch us during one of our <a href="#gigs">upcoming concerts</a>.
 		   As we are made up of 100% CU students, we see a lot of members come and go through the years, and our sound develops and changes with each new member. 
 		   When we lose any of our beloved members to their graduation date, we hold auditions to gather new girls. 
 		   For more information on how to join us, see <a href="#audition">Audition Information</a>. We are always looking out for new voices!
