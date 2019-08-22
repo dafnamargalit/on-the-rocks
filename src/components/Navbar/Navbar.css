@@ -24,6 +24,10 @@
     left: 8em;
     width: 200vw;
 }
+.Navbar-MobileLinks{
+    display: none;
+}
+
 .text{
     padding: 1em;
     padding-right: .5em;
@@ -71,8 +75,13 @@
        height: 10vh;
        /* top: auto; */
       }
+
+      .Navbar-Links{
+          display: none;
+      }
       
-      .Navbar-Links {
+      .Navbar-MobileLinks {
+        position: fixed;
         display: none;
         flex-direction: column;
         width: 100vw;

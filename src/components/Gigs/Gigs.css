@@ -14,6 +14,7 @@ justify-content: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2em;
     color: rgb(216, 0, 151);
+    padding: 3em;
 }
 
 .Gig{
@@ -88,4 +89,35 @@ justify-content: center;
 .Gig-Button:hover{
   background-color: rgb(255, 172, 223);
 
+}
+#desktop-break1{
+    display: block;
+}
+#desktop-break2{
+    display: block;
+}
+#desktop-break3{
+    display: block;
+}
+@media only screen and (max-width: 800px){
+    .Gigs-Header{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 1.6em;
+        padding: .6em;
+    }
+    .Gig{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 1.4em;
+        color: rgb(216, 0, 151);
+        cursor: pointer;
+    }
+    #desktop-break1{
+        display: none;
+    }
+    #desktop-break2{
+        display: none;
+    }
+    #desktop-break3{
+        display: none;
+    }
 }
