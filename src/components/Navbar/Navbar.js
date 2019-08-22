@@ -53,38 +53,38 @@ import './Navbar.css';
                         <img className='back-to-home' src={mountains} alt="mountains"></img>    
                 </a>
                         <div className='Navbar-MobileLinks'>
-                                <a className='nav' href='#home'>
-                                        <div className="text" onClick={this.menuOpen}>
+                                <a className='nav' href='#home' onClick={this.menuOpen}>
+                                        <div className="text">
                                                 HOME
                                         </div>
                                 </a>
-                                <a className='nav' href='#about'>
-                                        <div className="text" onClick={this.menuOpen}>
+                                <a className='nav' href='#about'onClick={this.menuOpen} >
+                                        <div className="text">
                                                 ABOUT
                                         </div>
                                 </a>
-                                <a className="nav" href="#meet-the-members">
-                                        <div className="text" onClick={this.menuOpen}>
+                                <a className="nav" href="#meet-the-members" onClick={this.menuOpen}>
+                                        <div className="text">
                                                 MEET THE MEMBERS
                                         </div>
                                 </a>
-                                <a className="nav" href="#music">
-                                        <div className="text" onClick={this.menuOpen}>
+                                <a className="nav" href="#music" onClick={this.menuOpen}>
+                                        <div className="text">
                                                OUR MUSIC
                                         </div>
                                 </a>
-                                <a className="nav" href="#gigs">
-                                        <div className="text" onClick={this.menuOpen}>
+                                <a className="nav" href="#gigs" onClick={this.menuOpen}>
+                                        <div className="text">
                                                 UPCOMING PERFORMANCES/GIGS
                                         </div>
                                 </a>
-                                <a className="nav" href="#audition">
-                                        <div className="text" onClick={this.menuOpen}>
+                                <a className="nav" href="#audition" onClick={this.menuOpen}>
+                                        <div className="text">
                                                 AUDITION INFO
                                         </div>
                                 </a>
-                                <a className="nav" href="#contact">
-                                        <div className="text" onClick={this.menuOpen}>
+                                <a className="nav" href="#contact"  onClick={this.menuOpen}>
+                                        <div className="text">
                                                 CONTACT
                                         </div>
                                 </a>
