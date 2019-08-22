@@ -7,7 +7,7 @@
 
 @media only screen and (max-width: 800px){
   .App{
-    height: 1500vh;
-    
+    height: 1150vh;
+    width: 100vw;
   }
 }
