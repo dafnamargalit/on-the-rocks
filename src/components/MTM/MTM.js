@@ -14,6 +14,9 @@ import kf from '../media/kf.png';
 import maya from '../media/maya.png';
 import noopur from '../media/noopur.png';
 import caroline from '../media/caroline.png';
+import rosie from '../media/logo.png';
+import lila from '../media/logo.png';
+import jolie from '../media/logo.png';
 
 
 import './MTM.css';
@@ -68,7 +71,7 @@ import './MTM.css';
 	
 		  dafna_modal(){
 			this.setState({name: "Dafna Margalit"});
-			this.setState({description: "Picture this— its 2025 and this scary talented singer/songwriter with a spunk like you’ve never seen before is casually taking the music scene by storm. Her old OTR pals drop her name on the streets and say “oh yeah, I used to harmonize with that legend back in Boulder.” Wake up…that future legend is our OTR Music Director (and creator of this website), Dafna! Her song writing ability and unique tone (as well as her software development skills) are known to bring her fellow OTR members to tears."});
+			this.setState({description: "Picture this— its 2025 and this scary talented singer/songwriter with a spunk like you’ve never seen before is casually taking the music scene by storm. Her old OTR pals drop her name on the streets and say “oh yeah, I used to harmonize with that legend back in Boulder.” Wake up… that future legend is our OTR Music Director, Dafna! Her song writing ability and unique tone (as well as her software development skills) are known to bring her fellow OTR members to tears."});
 			this.setState({image: dafna});
 			this.openModal();
 		  }
@@ -140,11 +143,33 @@ import './MTM.css';
 			this.openModal();
 		  }
 
+		  rosie_modal(){
+		    this.setState({name: "Rosie Graham", image: rosie});
+			this.setState({description: "Meet Rosie– A foreign exchange student from the UK who came to the US for a year to study History and the Marvel that is Acapella. A vibrant, talented lovely lady that everyone wants to be friends with, we are so so lucky to have Rosie in our group! Watch out for those Adele-like vocals!"});
+			this.openModal();
+		  }
+
+		  lila_modal(){
+			this.setState({name: "Lila Spurgeon", image: lila});
+			this.setState({description: "Lila is one of our newest editions to the group! With a voice that is so beautiful you might pass out when you hear it, matched with the sweetest personality, we are so thankful that Lila is a part of the group."});
+			this.openModal();
+		  }
+
+		  jolie_modal(){
+			this.setState({name: "Jolie DeRosa", image: jolie});
+			this.setState({description: "If you were to try and picture the sweetest person you'll ever meet, you would be picturing the one and only Jolie DeRosa. Her stunning vocals are what you hear when Heaven's gates open– this girl is an absolute ANGEL all around and we are so happy to have her."});
+			this.openModal();
+		  }
+
 		  render(){
 			return(
 				<div className='MTM'>
 					<div className='MTM-Header'>
 						MEET THE MEMBERS
+						<br></br>
+						<div className="MTM-Subtitle">
+						(click on a member to learn more about them!)
+						</div>
 					</div>
 					<div className='MTM-Members'>
 						<div className='MTM-Person-Container'>
@@ -226,6 +251,29 @@ import './MTM.css';
 						<img className='MTM-Person' src={caroline} alt="caroline" onClick={() => this.caroline_modal()}></img>
 							<div className="MTM-Container">
 									Caroline Thomson
+							</div>
+						</div>
+					</div>
+
+					<div className='MTM-Members'>
+					<div className='MTM-Person-Container'>
+						<img className='MTM-Person' src={rosie} alt="rosie" onClick={() => this.rosie_modal()}></img>
+							<div className="MTM-Container">
+									Rosie Graham
+							</div>
+						</div>
+
+						<div className='MTM-Person-Container'>
+						<img className='MTM-Person' src={lila} alt="lila" onClick={() => this.lila_modal()}></img>
+							<div className="MTM-Container">
+									Lila Spurgeon
+							</div>
+						</div>
+
+						<div className='MTM-Person-Container'>
+						<img className='MTM-Person' src={jolie} alt="jolie" onClick={() => this.jolie_modal()}></img>
+							<div className="MTM-Container">
+									Jolie DeRosa
 							</div>
 						</div>
 					</div>

@@ -1,5 +1,5 @@
 .MTM{
-    height: 100vh;
+    height: 150vh;
     display: block;
     text-align: center;
     justify-content: center;
@@ -12,6 +12,9 @@
     color: rgb(216, 0, 151);
 }
 
+.MTM-Subtitle{
+    font-size: .5em;
+}
 .MTM-Members{
     display: flex;
     padding: 1em;

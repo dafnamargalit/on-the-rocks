@@ -9,10 +9,7 @@ import './Audition.css';
         <div className='Audition-Header'>
 			AUDITION INFO
 		</div>
-            Auditions are August 27th and 28th from 6pm-9pm at Hellems Arts and Sciences, room 237. 
-            You must come prepared with 30 seconds of your favorite song to sing! 
-            No musical theatre or classical. 
-            We will test your range and ability to match pitch and sing back short melodies! Can't wait to see you there!
+            We will be holding Auditions in Spring 2020! Keep a look out on here and on our social media for updates at the beginning of Spring Semester!
         </div>
 	</div>
 	

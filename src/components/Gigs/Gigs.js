@@ -42,6 +42,9 @@ export default class Gigs extends React.Component{
 				<div className='Gig-Content'>
 				<div className='Gigs-Header'>
 					UPCOMING PERFORMANCES/GIGS
+					<div className="Gigs-Subtitle">
+						(click on a gig for more info)
+					</div>
 				</div>
 				<div className='Gig' onClick={() => this.concert_modal()}>
 					2019 FALL CONCERT
