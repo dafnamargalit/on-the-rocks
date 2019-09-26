@@ -12,7 +12,7 @@ background-repeat:repeat; */
 
 .About-Content{
     width: 80vw;
-    height: calc(130vh - 20vw);
+    height: calc(105vh - 20vw);
 background-color: rgba(255, 192, 231, 0.699);
 display: flex;
 padding: 1em;
@@ -54,7 +54,7 @@ a{
 #desktop-break{ 
     display:block;
 }
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 1100px){
     .About{
         padding-top: 4vh;
         height: 230vh;
@@ -71,7 +71,7 @@ a{
         .About-Content{
            flex-direction: column;
            align-items: center;
-           height: 230vh;
+           height: 120vh;
             }
             .About-MobileHeader{
                 display: block;
