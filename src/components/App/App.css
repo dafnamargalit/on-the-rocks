@@ -5,7 +5,14 @@
   
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (min-width: 400px) and (max-width: 1064px){
+  .App{
+    height: 1090vh;
+    width: 100vw;
+  }
+}
+
+@media only screen and (max-width: 400px){
   .App{
     height: 1200vh;
     width: 100vw;
