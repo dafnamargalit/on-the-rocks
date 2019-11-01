@@ -4,19 +4,19 @@ import Modal from 'react-modal';
 
 import kyra from '../media/kyra.png';
 import dafna from '../media/dafna.png';
-import michelle from '../media/michelle.png';
+import michelle from '../media/michelle_headshot.JPG';
 import katie from '../media/katie.png';
 import jenna from '../media/jenna.png';
 import riley from '../media/riley.png';
-import aleix from '../media/aleix.png';
+import aleix from '../media/aleix.jpg';
 import emily from '../media/emily.png';
 import kf from '../media/kf.png';
 import maya from '../media/maya.png';
 import noopur from '../media/noopur.png';
 import caroline from '../media/caroline.png';
-import rosie from '../media/logo.png';
-import lila from '../media/logo.png';
-import jolie from '../media/logo.png';
+import rosie from '../media/rosie.png';
+import lila from '../media/lila.png';
+import jolie from '../media/jolie.png';
 
 
 import './MTM.css';

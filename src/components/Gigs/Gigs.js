@@ -34,7 +34,7 @@ export default class Gigs extends React.Component{
 
 	  concert_modal(){
 		  this.openModal()
-		  this.setState({event: 'FALL 2019 CONCERT', time: "We still don't know when it is! Check back later for when we announce it.", location: 'Old Main'});
+		  this.setState({event: 'FALL 2019 CONCERT', day: "Friday, December 6th", time: "7:00 PM", location: 'Old Main'});
 	  }
 	render(){
 		return(
@@ -65,9 +65,11 @@ export default class Gigs extends React.Component{
 								{this.state.event}
 							</div> 
 							<div className="Gig-Description">
+								{this.state.day}
+								<br></br>
 								{this.state.time}
-								{/* <br></br>
-								{this.state.location} */}
+								<br></br>
+								{this.state.location}
 							</div>
 							<div className="Gig-Container">
 							<button className="Gig-Button" onClick={this.closeModal}> Close </button>

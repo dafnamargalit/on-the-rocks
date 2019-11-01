@@ -25,14 +25,14 @@ import './Navbar.css';
                         this.setState({ width: window.innerWidth, height: window.innerHeight });
                         var menu = document.querySelector(".Navbar-MobileLinks");
                         console.log(window.innerWidth);
-                         if(window.innerWidth > 800){
+                         if(window.innerWidth > 1064){
                                  menu.style.display = 'none';
                          }
                       }
                 menuOpen(){
                         var menu = document.querySelector(".Navbar-MobileLinks");
                         console.log(window.innerWidth);
-                         if( menu.style.display === 'flex' || window.innerWidth > 800){
+                         if( menu.style.display === 'flex' || window.innerWidth > 1064){
                                  menu.style.display = 'none';
                          }
                          else {

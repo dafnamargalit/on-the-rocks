@@ -68,7 +68,7 @@
 
 
 
-@media only screen and (max-width: 800px){	
+@media only screen and (max-width: 1064px){	
     .Navbar {
        background-color:rgba(240, 61, 147);
        width: 100vw;
@@ -92,12 +92,12 @@
       }
       .icon{
         display: block;
-        right: 0em;
+        right: 0vw;
         width: 7vh;
     }
     
     .side{
-        width: 80vw;
+        width: 90vw;
         display: block;
     }
     .text{

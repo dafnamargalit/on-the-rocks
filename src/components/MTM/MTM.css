@@ -101,7 +101,7 @@
 
   @media only screen and (max-width: 800px){
     .MTM{
-        height: 400vh;
+        height: 450vh;
     }
     .MTM-Members{
         display: flex;

@@ -15,6 +15,7 @@ background-repeat:repeat; */
     height: calc(105vh - 20vw);
 background-color: rgba(255, 192, 231, 0.699);
 display: flex;
+align-items: center;
 padding: 1em;
 margin: 1em;
 border-radius: 2em;
@@ -54,24 +55,62 @@ a{
 #desktop-break{ 
     display:block;
 }
-@media only screen and (max-width: 1100px){
+@media only screen and (min-width:400px) and (max-width: 1100px){
     .About{
         padding-top: 4vh;
         height: 230vh;
-        top:100vh;
+        top: 4vh;
+        align-items: center;
         flex-direction: column;
         /* background-image: url('../media/circles.png');
         background-repeat:repeat; */
         }
         .About-Image{
             height: 30vh;
-            width:40vh;
             margin: .2em;
         }
         .About-Content{
            flex-direction: column;
            align-items: center;
            height: 120vh;
+            }
+            .About-MobileHeader{
+                display: block;
+                font-size: 1.5em;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-weight: 500;
+                color: rgb(216, 0, 151);
+            }
+
+            .About-Header{
+                display: none;
+            }
+        #desktop-break{
+            display:none;
+        }
+        #desktop-header{
+            display: none;
+        }
+}
+
+@media only screen and (max-width: 399px){
+    .About{
+        padding-top: 4vh;
+        height: 150vh;
+        top: 4vh;
+        align-items: center;
+        flex-direction: column;
+        /* background-image: url('../media/circles.png');
+        background-repeat:repeat; */
+        }
+        .About-Image{
+            height: 30vh;
+            margin: .2em;
+        }
+        .About-Content{
+           flex-direction: column;
+           align-items: center;
+           height: 150vh;
             }
             .About-MobileHeader{
                 display: block;
