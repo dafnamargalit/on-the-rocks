@@ -96,7 +96,7 @@ a{
 @media only screen and (max-width: 399px){
     .About{
         padding-top: 4vh;
-        height: 150vh;
+        height: 170vh;
         top: 4vh;
         align-items: center;
         flex-direction: column;
@@ -110,7 +110,7 @@ a{
         .About-Content{
            flex-direction: column;
            align-items: center;
-           height: 150vh;
+           height: 170vh;
             }
             .About-MobileHeader{
                 display: block;
