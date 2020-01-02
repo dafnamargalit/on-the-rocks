@@ -65,7 +65,7 @@ import './MTM.css';
 		  kyra_modal(){
 			this.setState({name: "Kyra Mowbray"});
 			this.setState({image: kyra});
-			this.setState({description: "Kyra, our president, is the coolest girl you’ll ever come across! This California girl comes from a musical theater background, can belt like no other, and makes us all smile while leading the group in stride. Do you hear a rich, deep sound in our ensemble? Then you might be hearing Kyra’s lovely voice! Some fun facts: this gal has a twin sister, is majoring in elementary education and has traveled all around the world. We are so lucky to have you, Kyra!"});
+			this.setState({description: "Kyra is the coolest girl you’ll ever come across! This California girl comes from a musical theater background, can belt like no other, and makes us all smile while leading the group in stride. Do you hear a rich, deep sound in our ensemble? Then you might be hearing Kyra’s lovely voice! Some fun facts: this gal has a twin sister, is majoring in elementary education and has traveled all around the world. We are so lucky to have you, Kyra!"});
 			this.openModal();
 		  }
 	
@@ -78,7 +78,7 @@ import './MTM.css';
 
 		  michelle_modal(){
 			this.setState({name: "Michelle Piccone"});
-			this.setState({description: "Meet Michelle: a super funny, talented senior that will WOW you with her vocals. When this girl isn’t wowing you with her beautiful, strong vocals, she will be making you laugh due to her bubbly and infectious personality. Not only that, Michelle is our lovely treasurer: you can bet your bottom dollar that we won’t ever reach our bottom dollar with Michelle as treasurer. We are so lucky to have Michelle in the group!"});
+			this.setState({description: "Meet Michelle: a super funny, talented senior that will WOW you with her vocals. When this girl isn’t wowing you with her beautiful, strong vocals, she will be making you laugh due to her bubbly and infectious personality. We are so lucky to have Michelle in the group!"});
 			this.setState({image: michelle});
 			this.openModal();
 		  }
@@ -120,14 +120,14 @@ import './MTM.css';
 
 		  kf_modal(){
 			this.setState({name: "Katie Faith Leonard"});
-			this.setState({description: "Meet Katie Faith, the kindest, funniest, and most hardworking QUEEN with the sweetest voice. You having a bad day? As soon as Katie Faith is by your side, your whole mood will change for the better. We are so lucky to have such a talented and wonderful person in our group!" });
+			this.setState({description: "Meet Katie Faith, our president, the kindest, funniest, and most hardworking QUEEN with the sweetest voice. You having a bad day? As soon as Katie Faith is by your side, your whole mood will change for the better. We are so lucky to have such a talented and wonderful person in our group!" });
 			this.setState({image: kf});
 			this.openModal();
 		  }
 
 		  maya_modal(){
 			this.setState({name: "Maya Shrestha",image: maya});
-			this.setState({description: "We are beyond lucky to have Maya in OTR! Best known as our beatbox QUEEN, you can catch her dropping some sick beats. Maya is not only a ball of spunk, but she is a great mentor when it comes to helping others with keeping beat. And as some may know, Maya may weave some fantastic Star Wars references throughout rehearsal ;-). Without her we would not be where we are now!" });
+			this.setState({description: "We are beyond lucky to have Maya in OTR! Best known as our beatbox QUEEN, you can catch her dropping some sick beats. Not only that, Maya is our lovely treasurer: you can bet your bottom dollar that we won’t ever reach our bottom dollar with Maya as treasurer. And as some may know, Maya may weave some fantastic Star Wars references throughout rehearsal ;-). Without her we would not be where we are now!" });
 			this.openModal();
 		  }
 
@@ -173,9 +173,9 @@ import './MTM.css';
 					</div>
 					<div className='MTM-Members'>
 						<div className='MTM-Person-Container'>
-							<img className='MTM-Person' src={kyra} alt="kyra" onClick={() => this.kyra_modal()}></img>
+							<img className='MTM-Person' src={kf} alt="kf" onClick={() => this.kf_modal()}></img>
 							<div className="MTM-Container">
-								Kyra Mowbray
+								Katie Faith Leonard
 							</div>
 						</div>
 						<div className='MTM-Person-Container'>
@@ -185,9 +185,9 @@ import './MTM.css';
 							</div>
 						</div>
 						<div className='MTM-Person-Container'>
-							<img className='MTM-Person' src={michelle} alt="michelle" onClick={() => this.michelle_modal()}></img>
+							<img className='MTM-Person' src={maya} alt="maya" onClick={() => this.maya_modal()}></img>
 							<div className="MTM-Container">
-									Michelle Piccone
+									Maya Shrestha
 							</div>
 						</div>
 					</div>
@@ -226,16 +226,16 @@ import './MTM.css';
 
 					<div className='MTM-Members'>
 						<div className='MTM-Person-Container'>
-						<img className='MTM-Person' src={kf} alt="kf" onClick={() => this.kf_modal()}></img>
+						<img className='MTM-Person' src={kyra} alt="kyra" onClick={() => this.kyra_modal()}></img>
 							<div className="MTM-Container">
-									Katie Faith Leonard
+									Kyra Mowbray
 							</div>
 						</div>
 
 						<div className='MTM-Person-Container'>
-						<img className='MTM-Person' src={maya} alt="maya" onClick={() => this.maya_modal()}></img>
+						<img className='MTM-Person' src={michelle} alt="michelle" onClick={() => this.michelle_modal()}></img>
 							<div className="MTM-Container">
-									Maya Shrestha
+									Michelle Piccone
 							</div>
 						</div>
 
