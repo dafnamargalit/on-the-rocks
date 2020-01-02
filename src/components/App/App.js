@@ -14,11 +14,38 @@ import './App.css';
 
 
 class App extends Component {
+   preloader() {
+    var i = 0;
+    var imageObj = [];
+   
+    var images = [];
+    images[0]="./media/aleix.jpg";
+    images[1]="./media/caroline.png";
+    images[2]="./media/dafna.png";
+    images[3]="./media/emily.png";
+    images[4]="./media/jenna.png";
+    images[5]="./media/jolie.png";
+    images[6]="./media/katie.png";
+    images[7]="./media/kf.png";
+    images[8]="./media/kyra.png";
+    images[9]="./media/lila.png";
+    images[10]="./media/maya.png";
+    images[11]="./media/noopur.png";
+    images[12]="./media/riley.png";
+    images[13]="./media/rosie.png";
+    images[14]="./media/us.jpg";
+   
+    for(i=0; i<images.length; i++) {
+      var image = new Image();
+      image.src = images[i]
+      imageObj[imageObj.length] = image;
+    }
+  } 
   render(){
   return (
     <ParallaxProvider>
     <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
-      <div className="App">
+      <div className="App" onLoad="preloader()">
         <Navbar/>
         <ScrollableAnchor id={"home"}>
           <div className='Home'>
