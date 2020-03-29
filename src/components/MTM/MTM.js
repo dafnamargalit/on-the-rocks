@@ -2,7 +2,6 @@ import React from 'react';
 import Modal from 'react-modal';
 // import ReactDOM from "react-dom";
 
-import kyra from '../media/kyra.png';
 import dafna from '../media/dafna.png';
 import michelle from '../media/michelle_headshot.JPG';
 import katie from '../media/katie.png';
@@ -16,7 +15,7 @@ import noopur from '../media/noopur.png';
 import caroline from '../media/caroline.png';
 import rosie from '../media/rosie.png';
 import lila from '../media/lila.png';
-import jolie from '../media/jolie.png';
+
 
 
 import './MTM.css';
@@ -44,7 +43,7 @@ import './MTM.css';
 			this.state = {
 			  modalIsOpen: false,
 			  name: 'name',
-			  image: kyra,
+			  image: dafna,
 			  description: 'test'
 			};
 		
@@ -60,13 +59,6 @@ import './MTM.css';
 		
 		  closeModal() {
 			this.setState({modalIsOpen: false});
-		  }
-
-		  kyra_modal(){
-			this.setState({name: "Kyra Mowbray"});
-			this.setState({image: kyra});
-			this.setState({description: "Kyra is the coolest girl you’ll ever come across! This California girl comes from a musical theater background, can belt like no other, and makes us all smile while leading the group in stride. Do you hear a rich, deep sound in our ensemble? Then you might be hearing Kyra’s lovely voice! Some fun facts: this gal has a twin sister, is majoring in elementary education and has traveled all around the world. We are so lucky to have you, Kyra!"});
-			this.openModal();
 		  }
 	
 		  dafna_modal(){
@@ -155,12 +147,6 @@ import './MTM.css';
 			this.openModal();
 		  }
 
-		  jolie_modal(){
-			this.setState({name: "Jolie DeRosa", image: jolie});
-			this.setState({description: "If you were to try and picture the sweetest person you'll ever meet, you would be picturing the one and only Jolie DeRosa. Her stunning vocals are what you hear when Heaven's gates open– this girl is an absolute ANGEL all around and we are so happy to have her."});
-			this.openModal();
-		  }
-
 		  render(){
 			return(
 				<div className='MTM'>
@@ -216,22 +202,15 @@ import './MTM.css';
 									Aleix Lyon
 							</div>
 						</div>
-						<div className='MTM-Person-Container'>
+					</div>
+
+					<div className='MTM-Members'>
+					<div className='MTM-Person-Container'>
 							<img className='MTM-Person' src={emily} alt="emily" onClick={() => this.emily_modal()}></img>
 							<div className="MTM-Container">
 									Emily Miller
 							</div>
 						</div>
-					</div>
-
-					<div className='MTM-Members'>
-						<div className='MTM-Person-Container'>
-						<img className='MTM-Person' src={kyra} alt="kyra" onClick={() => this.kyra_modal()}></img>
-							<div className="MTM-Container">
-									Kyra Mowbray
-							</div>
-						</div>
-
 						<div className='MTM-Person-Container'>
 						<img className='MTM-Person' src={michelle} alt="michelle" onClick={() => this.michelle_modal()}></img>
 							<div className="MTM-Container">
@@ -267,13 +246,6 @@ import './MTM.css';
 						<img className='MTM-Person' src={lila} alt="lila" onClick={() => this.lila_modal()}></img>
 							<div className="MTM-Container">
 									Lila Spurgeon
-							</div>
-						</div>
-
-						<div className='MTM-Person-Container'>
-						<img className='MTM-Person' src={jolie} alt="jolie" onClick={() => this.jolie_modal()}></img>
-							<div className="MTM-Container">
-									Jolie DeRosa
 							</div>
 						</div>
 					</div>

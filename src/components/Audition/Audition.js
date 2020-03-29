@@ -9,7 +9,7 @@ import './Audition.css';
         <div className='Audition-Header'>
 			AUDITION INFO
 		</div>
-            We will be holding Auditions in Spring 2020! Keep a look out on here and on our social media for updates at the beginning of Spring Semester!
+            We will be holding Auditions in Fall 2020! Keep a look out on here and on our social media for updates at the beginning of Fall Semester!
         </div>
 	</div>
 	
