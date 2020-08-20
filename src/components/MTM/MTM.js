@@ -190,35 +190,16 @@ import './MTM.css';
 									Jenna Snyder
 							</div>
 						</div>
-						<div className='MTM-Person-Container'>
-							<img className='MTM-Person' src={riley} alt="riley" onClick={() => this.riley_modal()}></img>
-							<div className="MTM-Container">
-									Riley Blackwood
-							</div>
-						</div>
-						<div className='MTM-Person-Container'>
-							<img className='MTM-Person' src={aleix} alt="aleix" onClick={() => this.aleix_modal()}></img>
-							<div className="MTM-Container">
-									Aleix Lyon
-							</div>
-						</div>
-					</div>
-
-					<div className='MTM-Members'>
 					<div className='MTM-Person-Container'>
 							<img className='MTM-Person' src={emily} alt="emily" onClick={() => this.emily_modal()}></img>
 							<div className="MTM-Container">
 									Emily Miller
 							</div>
 						</div>
-						<div className='MTM-Person-Container'>
-						<img className='MTM-Person' src={michelle} alt="michelle" onClick={() => this.michelle_modal()}></img>
-							<div className="MTM-Container">
-									Michelle Piccone
-							</div>
-						</div>
+					</div>
 
-						<div className='MTM-Person-Container'>
+					<div className='MTM-Members'>
+					<div className='MTM-Person-Container'>
 						<img className='MTM-Person' src={noopur} alt="noopur" onClick={() => this.noopur_modal()}></img>
 							<div className="MTM-Container">
 									Noopur Naik
@@ -230,15 +211,6 @@ import './MTM.css';
 						<img className='MTM-Person' src={caroline} alt="caroline" onClick={() => this.caroline_modal()}></img>
 							<div className="MTM-Container">
 									Caroline Thomson
-							</div>
-						</div>
-					</div>
-
-					<div className='MTM-Members'>
-					<div className='MTM-Person-Container'>
-						<img className='MTM-Person' src={rosie} alt="rosie" onClick={() => this.rosie_modal()}></img>
-							<div className="MTM-Container">
-									Rosie Graham
 							</div>
 						</div>
 
