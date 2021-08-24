@@ -9,7 +9,11 @@ import './Audition.css';
         <div className='Audition-Header'>
 			AUDITION INFO
 		</div>
-            We will be holding online auditions in Fall 2020! Keep a look out on here and on our social media for updates at the beginning of Fall Semester!
+        <b className="Audition-Bold">When:</b> August 31st and September 1st
+		<br></br>
+		<b className="Audition-Bold">Where:</b> UMC 418
+		<br></br>
+		<b className="Audition-Bold">Get ready to:</b> Sing 30 seconds of a song of your choice (no musical theater please).
         </div>
 	</div>
 	
