@@ -3,20 +3,18 @@ import Modal from 'react-modal';
 // import ReactDOM from "react-dom";
 
 import dafna from '../media/dafna.png';
-import michelle from '../media/michelle_headshot.JPG';
-import katie from '../media/katie.png';
-import jenna from '../media/jenna.png';
-import riley from '../media/riley.png';
-import aleix from '../media/aleix.jpg';
-import emily from '../media/emily.png';
 import kf from '../media/kf.png';
 import maya from '../media/maya.png';
-import noopur from '../media/noopur.png';
 import caroline from '../media/caroline.png';
-import rosie from '../media/rosie.png';
 import lila from '../media/lila.png';
-
-
+import amrita from '../media/amrita.png';
+import bri from '../media/bri.png';
+import charity from '../media/charity.png';
+import georgie from '../media/georgie.png';
+import margaux from '../media/margaux.png';
+import melissa from '../media/melissa.png';
+import sophie from '../media/sophie.png';
+import paige from '../media/paige.png';
 
 import './MTM.css';
 // const customStyles = {
@@ -68,48 +66,6 @@ import './MTM.css';
 			this.openModal();
 		  }
 
-		  michelle_modal(){
-			this.setState({name: "Michelle Piccone"});
-			this.setState({description: "Meet Michelle: a super funny, talented senior that will WOW you with her vocals. When this girl isn’t wowing you with her beautiful, strong vocals, she will be making you laugh due to her bubbly and infectious personality. We are so lucky to have Michelle in the group!"});
-			this.setState({image: michelle});
-			this.openModal();
-		  }
-
-		  katie_modal(){
-			this.setState({name: "Katie Lavey"});
-			this.setState({description: "If you ever are in need of a good laugh, Katie Lavey is your girl. Not only is Katie our in house Amy Poehler, but our sweet soprano also has a laugh that can brighten up any room. She is definitely the only person we can think of that could pull of velcro tennis-shoes, so that pretty much sums up how much we all want to be Katie when we grow up. Katie is also a QUEEN when it comes to everything to do with branding and marketing: as OTR’s marketing head, Katie is behind everything that has to do with the OTR brand."});
-			this.setState({image: katie});
-			this.openModal();
-		  }
-
-		  jenna_modal(){
-			this.setState({name: "Jenna Snyder"});
-			this.setState({description: "Ms. Jenna is one spicy sophisticated junior at CU! She is a one of a kind gal with her beautiful smile, incredible dance moves and her amazing talent for telling the best stories. With her kindness, infectious laughter, and witty charm, she’ll brighten up anyone’s day! Jenna is also a business LEGEND. She is the smartest, busiest, most hardworking person you'll ever meet and OTR is lucky to have her!"});
-			this.setState({image: jenna});
-			this.openModal();
-		  }
-
-		  riley_modal(){
-			  this.setState({name: "Riley Blackwood"});
-			  this.setState({description: "This spunky, sweet gal has been singing with On the Rocks since she was just a little freshman. Riley is one smart girlie; she’s studying psychology and history with a certificate in applied care. When Riley isn’t studying she can be found making pumpkins spice lattes at Starbucks or riffing Ariana Grande tunes. We love this girl and are so excited to see what the world has in store for her."});
-			  this.setState({image: riley});
-			  this.openModal();
-		  }
-
-		  aleix_modal(){
-			this.setState({name: "Aleix Lyon"});
-			this.setState({description: "Meet sweet Aleix! This girl has rhythm, personality, spunk, charm, and kindness that instantly brightens the room. She’s quick to learn our songs and can pick up any tune instantly. Catch this girl singing soprano at many of our concerts to come!" });
-			this.setState({image: aleix});
-			this.openModal();
-		  }
-
-		  emily_modal(){
-			this.setState({name: "Emily Miller"});
-			this.setState({description: "This is Emily Miller! She is sweet and sassy, and takes our breath away with her perfect soprano voice! (Just listen to her sing Alaska at our next concert and you’ll get it) Emily is in CU Greek Life, she’s studying Integrated Physiology, and if you hang out with her long enough, you’ll also get to know her famous in boulder dad: RON (Hi, Ron! Sending so much love from OTR)"});
-			this.setState({image: emily});
-			this.openModal();
-		  }
-
 		  kf_modal(){
 			this.setState({name: "Katie Faith Leonard"});
 			this.setState({description: "Meet Katie Faith, our president, the kindest, funniest, and most hardworking QUEEN with the sweetest voice. You having a bad day? As soon as Katie Faith is by your side, your whole mood will change for the better. We are so lucky to have such a talented and wonderful person in our group!" });
@@ -123,27 +79,63 @@ import './MTM.css';
 			this.openModal();
 		  }
 
-		  noopur_modal(){
-			this.setState({name: "Noopur Naik",image: noopur});
-			this.setState({description: "Just WAIT until you hear the smooth, luxurious voice that emanates from Noopur’s mouth. Noopur’s voice will surely make you melt at each and every one of our concerts. Noopur can whip out a hilarious story on any occasion and make us all collapse from laughter. She juggles all the responsibilities in life like its a walk in the park, and she never fails to bring a warm smile to rehearsal."});
-			this.openModal();
-		  }
-
 		  caroline_modal(){
 			this.setState({name: "Caroline Thomson",image: caroline});
 			this.setState({description: "Caroline has got a beautiful voice and an attitude to match. Seriously, this girl comes in each day with a smile on her face, and gets right down to business memorizing complicated acapella songs in minutes! We’re so glad she’s part of the team and excited to keep singing with her!"});
 			this.openModal();
 		  }
 
-		  rosie_modal(){
-		    this.setState({name: "Rosie Graham", image: rosie});
-			this.setState({description: "Meet Rosie– A foreign exchange student from the UK who came to the US for a year to study History and the Marvel that is Acapella. A vibrant, talented lovely lady that everyone wants to be friends with, we are so so lucky to have Rosie in our group! Watch out for those Adele-like vocals!"});
+		  lila_modal(){
+			this.setState({name: "Lila Spurgeon", image: lila});
+			this.setState({description: "With a voice that is so beautiful you might pass out when you hear it, matched with the sweetest and spunkiest personality, we are so thankful that Lila is a part of the group."});
 			this.openModal();
 		  }
 
-		  lila_modal(){
-			this.setState({name: "Lila Spurgeon", image: lila});
-			this.setState({description: "Lila is one of our newest editions to the group! With a voice that is so beautiful you might pass out when you hear it, matched with the sweetest personality, we are so thankful that Lila is a part of the group."});
+		  amrita_modal(){
+			  this.setState({name: "Amrita Purkayastha", image: amrita});
+			  this.setState({description: "Amrita's lovely, rich voice and her kind attitude and funny quips are what make OTR truly OTR!"})
+			  this.openModal();
+		  }
+
+		  paige_modal(){
+			this.setState({name: "Paige Weimer", image: paige});
+			this.setState({description: "Paige is one of the smartest and talented musicians you'll ever come across, and we are so lucky to have her in the group!"})
+			this.openModal();
+		  }
+
+		  melissa_modal(){
+			this.setState({name: "Melissa Pinkner", image: melissa});
+			this.setState({description: "Melissa is such a kind and generous person, paired with an absolutely stunning voice that makes us so thankful that she joined our group."})
+			this.openModal();
+		  }
+
+		  bri_modal(){
+			this.setState({name: "Brianna Johnson", image: bri});
+			this.setState({description: "Brianna is one of five of our newest members! She has an INSANE voice and an amazing personality and we are so excited to have her join us!"})
+			this.openModal();
+		  }
+
+		  charity_modal(){
+			this.setState({name: "Charity Luce", image: charity});
+			this.setState({description: "Charity is one of five of our newest members! Her sweet voice and personality are exactly what OTR is all about."})
+			this.openModal();
+		  }
+
+		  georgie_modal(){
+			this.setState({name: "Georgie Armatas", image: georgie});
+			this.setState({description: "Georgie is one of five of our newest members! Georgie's kind presence and luscious vocals are a wonderful addition to the group."})
+			this.openModal();
+		  }
+
+		  margaux_modal(){
+			this.setState({name: "Margaux Reifman", image: margaux});
+			this.setState({description: "Margaux is one of five of our newest members! Along with her beautiful voice, Margaux also writes songs and we are so excited to have her in the group!"})
+			this.openModal();
+		  }
+
+		  sophie_modal(){
+			this.setState({name: "Sophie Choubai", image: sophie});
+			this.setState({description: "Sophie is one of five of our newest members! Sophie's kindness, breathtaking voice and hardwork ethic are some of the many wonderful reasons we are so excited she joined OTR."})
 			this.openModal();
 		  }
 
@@ -178,46 +170,74 @@ import './MTM.css';
 						</div>
 					</div>
 					<div className='MTM-Members'>
-						<div className='MTM-Person-Container'>
-							<img className='MTM-Person' src={katie} alt="katie" onClick={() => this.katie_modal()}></img>
-							<div className="MTM-Container">
-									Katie Lavey
-							</div>
-						</div>
-						<div className='MTM-Person-Container'>
-							<img className='MTM-Person' src={jenna} alt="jenna" onClick={() => this.jenna_modal()}></img>
-							<div className="MTM-Container">
-									Jenna Snyder
-							</div>
-						</div>
 					<div className='MTM-Person-Container'>
-							<img className='MTM-Person' src={emily} alt="emily" onClick={() => this.emily_modal()}></img>
-							<div className="MTM-Container">
-									Emily Miller
-							</div>
-						</div>
-					</div>
-
-					<div className='MTM-Members'>
-					<div className='MTM-Person-Container'>
-						<img className='MTM-Person' src={noopur} alt="noopur" onClick={() => this.noopur_modal()}></img>
-							<div className="MTM-Container">
-									Noopur Naik
-							</div>
-						</div>
-
-
-						<div className='MTM-Person-Container'>
 						<img className='MTM-Person' src={caroline} alt="caroline" onClick={() => this.caroline_modal()}></img>
 							<div className="MTM-Container">
 									Caroline Thomson
 							</div>
 						</div>
-
 						<div className='MTM-Person-Container'>
-						<img className='MTM-Person' src={lila} alt="lila" onClick={() => this.lila_modal()}></img>
+							<img className='MTM-Person' src={lila} alt="lila" onClick={() => this.lila_modal()}></img>
 							<div className="MTM-Container">
 									Lila Spurgeon
+							</div>
+						</div>
+					<div className='MTM-Person-Container'>
+							<img className='MTM-Person' src={amrita} alt="amrita" onClick={() => this.amrita_modal()}></img>
+							<div className="MTM-Container">
+									Amrita Purkayastha
+							</div>
+						</div>
+						<div className='MTM-Person-Container'>
+							<img className='MTM-Person' src={melissa} alt="melissa" onClick={() => this.melissa_modal()}></img>
+							<div className="MTM-Container">
+									Melissa Pinkner
+							</div>
+						</div>
+					<div className='MTM-Person-Container'>
+						<img className='MTM-Person' src={paige} alt="paige" onClick={() => this.paige_modal()}></img>
+							<div className="MTM-Container">
+									Paige Weimer
+							</div>
+						</div>
+					</div>
+
+					<div className='MTM-Members'>
+												
+
+						<div className='MTM-Person-Container'>
+						<img className='MTM-Person' src={bri} alt="bri" onClick={() => this.bri_modal()}></img>
+							<div className="MTM-Container">
+									Brianna Johnson
+							</div>
+						</div>
+
+						<div className='MTM-Person-Container'>
+						<img className='MTM-Person' src={charity} alt="charity" onClick={() => this.charity_modal()}></img>
+							<div className="MTM-Container">
+									Charity Luce
+							</div>
+						</div>
+
+
+						<div className='MTM-Person-Container'>
+						<img className='MTM-Person' src={georgie} alt="georgie" onClick={() => this.georgie_modal()}></img>
+							<div className="MTM-Container">
+									Georgie Armatas
+							</div>
+						</div>
+
+						<div className='MTM-Person-Container'>
+						<img className='MTM-Person' src={margaux} alt="margaux" onClick={() => this.margaux_modal()}></img>
+							<div className="MTM-Container">
+									Margaux Reifman
+							</div>
+						</div>
+
+						<div className='MTM-Person-Container'>
+						<img className='MTM-Person' src={sophie} alt="sophie" onClick={() => this.sophie_modal()}></img>
+							<div className="MTM-Container">
+									Sophie Choubai
 							</div>
 						</div>
 					</div>

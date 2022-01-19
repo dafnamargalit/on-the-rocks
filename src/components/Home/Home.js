@@ -25,7 +25,7 @@ import './Home.css';
             top = '20%'
             image = {ring}
             ></Parallax> */}
-			<a href="#audition"><img className="Home-Logo" src={logo} alt='logo'></img></a>
+			<a href="#about"><img className="Home-Logo" src={logo} alt='logo'></img></a>
 		</div>
 	);
 	}
